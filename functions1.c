@@ -40,7 +40,7 @@ int print_unsigned(va_list types, char buffer[],
 
 	a++;
 
-	return (write_unsgnd(0, i, buffer, flags, width, precision, size));
+	return (write_unsgnd(0, a, buffer, flags, width, precision, size));
 }
 
 /***Print unsigned Number in Octal**********/
